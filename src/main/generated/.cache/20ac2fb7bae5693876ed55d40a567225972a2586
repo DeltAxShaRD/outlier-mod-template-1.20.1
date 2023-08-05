@@ -1,0 +1,15 @@
+// 1.20.1	2023-08-04T20:20:27.5200693	Outlier Mod/Block Loot Tables
+539f63c00cbef913ad4842d6f9629ae66f11688d data\outlier-mod\loot_tables\blocks\pink_garnet_wall.json
+64fd7d0c28596153abe9782c80bbd1c9f1bea3e7 data\outlier-mod\loot_tables\blocks\pink_garnet_slab.json
+8bb38d78b936ffd1304b04f44b7f1e9b16b8bb58 data\outlier-mod\loot_tables\blocks\raw_pink_garnet_block.json
+73ccf0179bf146b3e1954e4c55ee2a0a80d9072b data\outlier-mod\loot_tables\blocks\pink_garnet_block.json
+a14fb4667ed9719bbabc90ddc19f02de93cc74ad data\outlier-mod\loot_tables\blocks\deepslate_pink_garnet_ore.json
+95c9b504a93573e4166ae197c0ea01816331e469 data\outlier-mod\loot_tables\blocks\pink_garnet_door.json
+8600d496c61aaf79431a9ad0cdcf655febb36fa6 data\outlier-mod\loot_tables\blocks\pink_garnet_trapdoor.json
+75f5bba027b499a38ecf406439db3c2b01f7e673 data\outlier-mod\loot_tables\blocks\pink_garnet_fence.json
+a0553c5c799a5110331163ec8d106887176cfbb9 data\outlier-mod\loot_tables\blocks\pink_garnet_ore.json
+eb066413af7bfe51fc2cfdbe2571d57d06f8e3b2 data\outlier-mod\loot_tables\blocks\pink_garnet_stairs.json
+3b3c1e31ad6965938910288ff9abe29021aab98a data\outlier-mod\loot_tables\blocks\nether_pink_garnet_ore.json
+afb155ead839e22ae3d5b9f9645f7ae11bbc90fc data\outlier-mod\loot_tables\blocks\pink_garnet_fence_gate.json
+ebc9f2825ff76502910117e49d9c05699579ea77 data\outlier-mod\loot_tables\blocks\sound_block.json
+f51e54f762c864f24a0b7d88338f332ecd344c3c data\outlier-mod\loot_tables\blocks\end_stone_pink_garnet_ore.json

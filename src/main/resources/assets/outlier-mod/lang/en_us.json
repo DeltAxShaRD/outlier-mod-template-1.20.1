@@ -1,0 +1,47 @@
+{
+  "item.outlier-mod.pink_garnet": "Pink Garnet",
+  "item.outlier-mod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.outlier-mod.metal_detector": "Metal Detector",
+  "item.outlier-mod.cauliflower": "Cauliflower",
+
+  "item.outlier-mod.pink_garnet_sword": "Pink Garnet Sword",
+  "item.outlier-mod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.outlier-mod.pink_garnet_axe": "Pink Garnet Axe",
+  "item.outlier-mod.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.outlier-mod.pink_garnet_hoe": "Pink Garnet Hoe",
+  "item.outlier-mod.pink_garnet_paxel": "Pink Garnet Paxel",
+
+  "item.outlier-mod.pink_garnet_helmet": "Pink Garnet Helmet",
+  "item.outlier-mod.pink_garnet_chestplate": "Pink Garnet Chestplate",
+  "item.outlier-mod.pink_garnet_leggings": "Pink Garnet Leggings",
+  "item.outlier-mod.pink_garnet_boots": "Pink Garnet Boots",
+  "item.outlier-mod.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
+
+  "block.outlier-mod.pink_garnet_block": "Pink Garnet Block",
+  "block.outlier-mod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.outlier-mod.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.outlier-mod.pink_garnet_door": "Pink Garnet Door",
+  "block.outlier-mod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
+  "block.outlier-mod.pink_garnet_slab": "Pink Garnet Slab",
+  "block.outlier-mod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.outlier-mod.pink_garnet_fence": "Pink Garnet Fence",
+  "block.outlier-mod.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.outlier-mod.pink_garnet_wall": "Pink Garnet Wall",
+  "block.outlier-mod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.outlier-mod.end_stone_pink_garnet_ore": "End Stone Pink Garnet Ore",
+  "block.outlier-mod.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
+  "block.outlier-mod.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
+  "block.outlier-mod.sound_block": "Sound Cycler",
+  "block.outlier-mod.pink_garnet_lamp_block": "Pink Garnet Lamp",
+
+  "itemgroup.pink_garnet_group": "Outlier Items & Blocks",
+
+  "item.outlier-mod.metal_detector.no_valuables": "Nothing found...",
+
+  "tooltip.outlier-mod.metal_detector.expanded": "Use on blocks to find ores under them, up to a limit.",
+  "tooltip.outlier-mod.metal_detector.contracted": "Press §6shift§r for more info.",
+  "tooltip.outlier-mod.sound_block.expanded": "Sneak Use to cycle between sounds, Use to play the sound.",
+  "tooltip.outlier-mod.sound_block.contracted": "Press §6shift§r for more info.",
+
+  "enchantment.outlier-mod.lightning_striker": "§dLightning Striker§r"
+}

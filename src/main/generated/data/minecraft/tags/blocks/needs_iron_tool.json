@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "outlier-mod:pink_garnet_ore",
+    "outlier-mod:pink_garnet_block",
+    "outlier-mod:pink_garnet_stairs",
+    "outlier-mod:pink_garnet_slab",
+    "outlier-mod:raw_pink_garnet_block",
+    "outlier-mod:end_stone_pink_garnet_ore",
+    "outlier-mod:nether_pink_garnet_ore",
+    "outlier-mod:deepslate_pink_garnet_ore"
+  ]
+}

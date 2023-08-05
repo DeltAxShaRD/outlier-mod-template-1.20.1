@@ -1,5 +1,10 @@
 package ariafey.outlier;
 
+import ariafey.outlier.block.ModBlocks;
+import ariafey.outlier.enchantment.ModEnchantments;
+import ariafey.outlier.item.ModItemGroup;
+import ariafey.outlier.item.ModItems;
+import ariafey.outlier.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +16,11 @@ public class OutlierMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModRegistries.registerModStuffs();
+		ModEnchantments.registerModEnchantments();
 	}
 }

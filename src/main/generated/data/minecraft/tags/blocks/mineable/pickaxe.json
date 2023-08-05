@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "outlier-mod:pink_garnet_ore",
+    "outlier-mod:pink_garnet_block",
+    "outlier-mod:pink_garnet_stairs",
+    "outlier-mod:pink_garnet_fence",
+    "outlier-mod:pink_garnet_fence_gate",
+    "outlier-mod:pink_garnet_wall",
+    "outlier-mod:pink_garnet_door",
+    "outlier-mod:pink_garnet_trapdoor",
+    "outlier-mod:pink_garnet_slab",
+    "outlier-mod:pink_garnet_pressure_plate",
+    "outlier-mod:raw_pink_garnet_block",
+    "outlier-mod:end_stone_pink_garnet_ore",
+    "outlier-mod:nether_pink_garnet_ore",
+    "outlier-mod:deepslate_pink_garnet_ore"
+  ]
+}
