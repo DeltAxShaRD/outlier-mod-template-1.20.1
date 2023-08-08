@@ -18,8 +18,11 @@ public class ModItemGroup {
                         //items
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
-                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.DATA_TABLET);
                         entries.add(ModItems.PEAT_BRICK);
+                        entries.add(ModItems.CAULIFLOWER_SEEDS);
+                        //music discs
+                        entries.add(ModItems.BAR_BRAWL_DISC);
                         //tools
                         entries.add(ModItems.PINK_GARNET_SWORD);
                         entries.add(ModItems.PINK_GARNET_PICKAXE);
@@ -27,6 +30,10 @@ public class ModItemGroup {
                         entries.add(ModItems.PINK_GARNET_SHOVEL);
                         entries.add(ModItems.PINK_GARNET_HOE);
                         entries.add(ModItems.PINK_GARNET_PAXEL);
+                        entries.add(ModItems.RADIATION_STAFF);
+                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.PINK_GARNET_BOW);
+                        entries.add(ModItems.PINK_GARNET_SHIELD);
                         //armor
                         entries.add(ModItems.PINK_GARNET_HELMET);
                         entries.add(ModItems.PINK_GARNET_CHESTPLATE);
@@ -52,6 +59,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
                         entries.add(ModBlocks.SOUND_BLOCK);
                         entries.add(ModBlocks.PINK_GARNET_LAMP_BLOCK);
+                        entries.add(ModBlocks.GEM_EMPOWERING_STATION);
+                        //natural blocks
+                        entries.add(ModBlocks.PETUNIA);
                         //food
                         entries.add(ModItems.CAULIFLOWER);
                     }).build());

@@ -1,0 +1,6 @@
+{
+    "parent": "outlier-mod:item/pink_garnet_bow",
+    "textures": {
+        "layer0": "outlier-mod:item/pink_garnet_bow_pulling_2"
+    }
+}

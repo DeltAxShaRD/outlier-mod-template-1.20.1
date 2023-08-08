@@ -17,7 +17,7 @@ import java.util.Map;
 public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.PINK_GARNET, new StatusEffectInstance(StatusEffects.SLOWNESS, 10, 1))
+                    .put(ModArmorMaterials.PINK_GARNET, new StatusEffectInstance(StatusEffects.SLOWNESS, 10, 0))
                     .build();
 
 

@@ -22,7 +22,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
         map.put(ArmorItem.Type.LEGGINGS, 7);
         map.put(ArmorItem.Type.CHESTPLATE, 9);
         map.put(ArmorItem.Type.HELMET, 4);
-    }), 28, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 1.0f, 0.5f, () -> Ingredient.ofItems(ModItems.PINK_GARNET));
+    }), 28, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0f, 0.5f, () -> Ingredient.ofItems(ModItems.PINK_GARNET));
 
     public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;
     private static final EnumMap<ArmorItem.Type, Integer> BASE_DURABILITY;

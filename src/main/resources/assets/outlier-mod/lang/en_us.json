@@ -2,7 +2,14 @@
   "item.outlier-mod.pink_garnet": "Pink Garnet",
   "item.outlier-mod.raw_pink_garnet": "Raw Pink Garnet",
   "item.outlier-mod.metal_detector": "Metal Detector",
+  "item.outlier-mod.radiation_staff": "Radiation Staff",
   "item.outlier-mod.cauliflower": "Cauliflower",
+  "item.outlier-mod.peat_brick": "Peat Brick",
+  "item.outlier-mod.data_tablet": "Data Tablet",
+  "item.outlier-mod.cauliflower_seeds": "Cauliflower Seeds",
+
+  "item.outlier-mod.bar_brawl_disc": "Bar Brawl Music Disc",
+  "item.outlier-mod.bar_brawl_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
   "item.outlier-mod.pink_garnet_sword": "Pink Garnet Sword",
   "item.outlier-mod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
@@ -10,6 +17,8 @@
   "item.outlier-mod.pink_garnet_shovel": "Pink Garnet Shovel",
   "item.outlier-mod.pink_garnet_hoe": "Pink Garnet Hoe",
   "item.outlier-mod.pink_garnet_paxel": "Pink Garnet Paxel",
+  "item.outlier-mod.pink_garnet_bow": "Pink Garnet Bow",
+  "item.outlier-mod.pink_garnet_shield": "Pink Garnet Shield",
 
   "item.outlier-mod.pink_garnet_helmet": "Pink Garnet Helmet",
   "item.outlier-mod.pink_garnet_chestplate": "Pink Garnet Chestplate",
@@ -28,11 +37,14 @@
   "block.outlier-mod.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
   "block.outlier-mod.pink_garnet_wall": "Pink Garnet Wall",
   "block.outlier-mod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.outlier-mod.pink_garnet_button": "Pink Garnet Button",
   "block.outlier-mod.end_stone_pink_garnet_ore": "End Stone Pink Garnet Ore",
   "block.outlier-mod.nether_pink_garnet_ore": "Nether Pink Garnet Ore",
   "block.outlier-mod.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
   "block.outlier-mod.sound_block": "Sound Cycler",
   "block.outlier-mod.pink_garnet_lamp_block": "Pink Garnet Lamp",
+  "block.outlier-mod.petunia": "Petunia",
+  "block.outlier-mod.gem_empowering_station": "Gem Empowering Station",
 
   "itemgroup.pink_garnet_group": "Outlier Items & Blocks",
 
@@ -43,5 +55,12 @@
   "tooltip.outlier-mod.sound_block.expanded": "Sneak Use to cycle between sounds, Use to play the sound.",
   "tooltip.outlier-mod.sound_block.contracted": "Press §6shift§r for more info.",
 
-  "enchantment.outlier-mod.lightning_striker": "§dLightning Striker§r"
+  "enchantment.outlier-mod.lightning_striker": "§dLightning Striker§r",
+
+  "sounds.outlier-mod.metal_detector_found_ore": "Metal Detector Found An Ore",
+  "sounds.outlier-mod.pink_garnet_lamp_break": "Block Broken",
+  "sounds.outlier-mod.pink_garnet_lamp_step": "Footsteps",
+  "sounds.outlier-mod.pink_garnet_lamp_place": "Block Placed",
+  "sounds.outlier-mod.pink_garnet_lamp_hit": "Block Breaking",
+  "sounds.outlier-mod.pink_garnet_lamp_fall": "No one ever hears this sound :("
 }

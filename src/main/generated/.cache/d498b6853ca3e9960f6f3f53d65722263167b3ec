@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-04T20:20:27.5180286	Outlier Mod/Recipes
+// 1.20.1	2023-08-07T13:01:25.9553035	Outlier Mod/Recipes
 0c2f87e0c82bee1e331a4c1623e6e0889798cdcd data\outlier-mod\advancements\recipes\redstone\pink_garnet_pressure_plate.json
 13b05428c2608188b34d2daa4f16434edf8f9dae data\outlier-mod\recipes\pink_garnet_from_blasting_raw_pink_garnet.json
 f43e44c9be104d8387c9d25861aca80ba539e494 data\outlier-mod\advancements\recipes\misc\raw_pink_garnet.json
@@ -7,8 +7,8 @@ c8af0e4aaa55c2b0caabbe448118917de509bf83 data\outlier-mod\recipes\pink_garnet.js
 eb8fc08b9c0fcec60be67616bf830b33f5e44f75 data\outlier-mod\recipes\pink_garnet_button_from_pink_garnet_block.json
 2fdf1d2b599679c777c4720e5545c1e8f36d8dcc data\outlier-mod\advancements\recipes\misc\pink_garnet.json
 39630b5253b7117b1db00f79567ee780f3a1c55b data\outlier-mod\advancements\recipes\misc\pink_garnet_from_blasting_pink_garnet_ore.json
-dd5beff82f5297d5e06ddd61e40cde9e49d46eb2 data\outlier-mod\recipes\pink_garnet_from_blasting_deepslate_pink_garnet_ore.json
 4f4f86a5ba13ce9d669cee1419f3913d81175dd4 data\outlier-mod\recipes\pink_garnet_from_smelting_pink_garnet_ore.json
+dd5beff82f5297d5e06ddd61e40cde9e49d46eb2 data\outlier-mod\recipes\pink_garnet_from_blasting_deepslate_pink_garnet_ore.json
 acb333ec9a1765685fd6d0d18090d1f2acd66cf4 data\outlier-mod\recipes\pink_garnet_pressure_plate.json
 911da06b5aeebb510e705676ce2263eef7521ab2 data\outlier-mod\recipes\pink_garnet_from_smelting_end_stone_pink_garnet_ore.json
 f8dc1f9fd81380a87a9dc73991587c5260de4a64 data\outlier-mod\advancements\recipes\misc\pink_garnet_from_smelting_pink_garnet_ore.json

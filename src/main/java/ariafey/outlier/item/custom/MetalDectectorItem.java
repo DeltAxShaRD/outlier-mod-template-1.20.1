@@ -1,5 +1,8 @@
 package ariafey.outlier.item.custom;
 
+import ariafey.outlier.item.ModItems;
+import ariafey.outlier.sound.ModSounds;
+import ariafey.outlier.util.InventoryUtil;
 import ariafey.outlier.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -10,6 +13,8 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
@@ -39,6 +44,12 @@ public class MetalDectectorItem extends Item {
                 if(isValuableBlock(blockState)) {
                     outputValuableCoordinates(positionClicked.down(i), player, block);
                     foundBlock = true;
+                    if(InventoryUtil.hasPlayerStackInInventory(player, ModItems.DATA_TABLET)) {
+                        addNbtDataToDataTablet(player, positionClicked.down(i), block);
+                    }
+
+                    context.getWorld().playSound(null, positionClicked, ModSounds.METAL_DETECTOR_FOUND_ORE,
+                            SoundCategory.BLOCKS, 1f, 1f);
 
                     break;
                 }
@@ -53,6 +64,16 @@ public class MetalDectectorItem extends Item {
                 playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
 
         return ActionResult.SUCCESS;
+    }
+
+    private void addNbtDataToDataTablet(PlayerEntity player, BlockPos position, Block block) {
+        ItemStack dataTabletStack = player.getInventory().getStack(InventoryUtil.getFirstInventoryIndex(player, ModItems.DATA_TABLET));
+
+        NbtCompound nbtData = new NbtCompound();
+        nbtData.putString("outlier-mod.last_valuable_found", "Valuable Found: " + block.getName().getString() + " " +
+                "(" + position.getX() + ", " + position.getY() + ", " + position.getZ() + ")");
+
+        dataTabletStack.setNbt(nbtData);
     }
 
     @Override

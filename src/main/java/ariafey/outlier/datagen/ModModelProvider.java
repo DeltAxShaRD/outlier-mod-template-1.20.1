@@ -1,6 +1,7 @@
 package ariafey.outlier.datagen;
 
 import ariafey.outlier.block.ModBlocks;
+import ariafey.outlier.block.custom.CauliflowerCropBlock;
 import ariafey.outlier.block.custom.PinkGarnetLampBlock;
 import ariafey.outlier.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -36,7 +37,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_GARNET_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
 
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PETUNIA, ModBlocks.POTTED_PETUNIA,
+                BlockStateModelGenerator.TintType.NOT_TINTED);
+
+
+
         registerPinkGarnetLamp(blockStateModelGenerator);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GEM_EMPOWERING_STATION);
     }
 
     private void registerPinkGarnetLamp(BlockStateModelGenerator blockStateModelGenerator) {
@@ -60,6 +69,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.DATA_TABLET, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BAR_BRAWL_DISC, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GARNET_PICKAXE, Models.HANDHELD);

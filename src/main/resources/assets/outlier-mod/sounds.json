@@ -1,0 +1,47 @@
+{
+  "metal_detector_found_ore": {
+    "subtitle": "sounds.outlier-mod.metal_detector_found_ore",
+    "sounds": [
+      "outlier-mod:metal_detector_found_ore"
+    ]
+  },
+  "pink_garnet_lamp_break": {
+    "subtitle": "sounds.outlier-mod.pink_garnet_lamp_break",
+    "sounds": [
+      "outlier-mod:pink_garnet_lamp_break"
+    ]
+  },
+  "pink_garnet_lamp_step": {
+    "subtitle": "sounds.outlier-mod.pink_garnet_lamp_step",
+    "sounds": [
+      "outlier-mod:pink_garnet_lamp_step"
+    ]
+  },
+  "pink_garnet_lamp_place": {
+    "subtitle": "sounds.outlier-mod.pink_garnet_lamp_place",
+    "sounds": [
+      "outlier-mod:pink_garnet_lamp_place"
+    ]
+  },
+  "pink_garnet_lamp_hit": {
+    "subtitle": "sounds.outlier-mod.pink_garnet_lamp_hit",
+    "sounds": [
+      "outlier-mod:pink_garnet_lamp_hit"
+    ]
+  },
+  "pink_garnet_lamp_fall": {
+    "subtitle": "sounds.outlier-mod.pink_garnet_lamp_fall",
+    "sounds": [
+      "outlier-mod:pink_garnet_lamp_fall"
+    ]
+  },
+  "bar_brawl": {
+    "subtitle": "sounds.outlier-mod.bar_brawl",
+    "sounds": [
+      {
+        "name":"bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

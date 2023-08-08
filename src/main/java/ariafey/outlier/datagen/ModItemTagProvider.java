@@ -15,6 +15,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+
+        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS).add(ModItems.BAR_BRAWL_DISC);
+
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.PINK_GARNET_HELMET)
                 .add(ModItems.PINK_GARNET_CHESTPLATE)
