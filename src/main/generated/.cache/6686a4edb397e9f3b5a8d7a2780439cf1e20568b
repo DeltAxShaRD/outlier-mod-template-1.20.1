@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-07T13:01:25.9583121	Outlier Mod/Model Definitions
+// 1.20.1	2023-08-14T16:25:23.6514939	Outlier Mod/Model Definitions
 8cf0e971560652bc2998179a1a2f957abf5cc947 assets\outlier-mod\models\item\pink_garnet_button.json
 5147efd24075c32ebd376dd50378d7ed8b2e95c5 assets\outlier-mod\models\block\sound_block.json
 906801dde96274b829db1311db292fa5d78a98e7 assets\outlier-mod\blockstates\pink_garnet_button.json
@@ -55,6 +55,7 @@ f260f3e9a4ec3412d9a187a85bcc84a36e1fbb51 assets\outlier-mod\models\item\pink_gar
 78a6f0523205ea6eca195854bd51f0343017f621 assets\outlier-mod\blockstates\cauliflower_crop.json
 77dec21f61312fff8e7962ff0ee34693c76b6c3c assets\outlier-mod\models\item\pink_garnet_leggings.json
 3457da6e5ec4913eeb6f60e72db7066b7e899128 assets\outlier-mod\models\block\pink_garnet_door_top_right_open.json
+58d3c5f20e19d711ab512695fdb4dbe44d46601c assets\outlier-mod\models\item\soap_water_bucket.json
 f51036dadc627cef62231b734375fc6462f25653 assets\outlier-mod\models\block\pink_garnet_fence_gate_wall_open.json
 caf00d125e48c90380bb9312481459d6d6ae86aa assets\outlier-mod\models\item\pink_garnet_helmet_netherite_trim.json
 50a4a22f761d00f775bf48050ed69bb9edcc7707 assets\outlier-mod\models\block\pink_garnet_fence_inventory.json
@@ -82,8 +83,8 @@ efa0d16ed5a28302b58572ef127db84fca73fc08 assets\outlier-mod\models\item\pink_gar
 c59332c0f089e2b03bd8241f051a6a8cdbaf239e assets\outlier-mod\models\item\pink_garnet_chestplate_redstone_trim.json
 935bacd3300645246658b71d6bfa019332129da1 assets\outlier-mod\models\item\pink_garnet_boots_copper_trim.json
 88c40f380d0325328222477a2cbd4097cdacc1c2 assets\outlier-mod\models\block\potted_petunia.json
-0428cb4e7d6d9f6f4679e809b1c46a470a7e4ce6 assets\outlier-mod\blockstates\pink_garnet_stairs.json
 8e908b3cba535cd5019fc3a0e104f5b8dc2fccb2 assets\outlier-mod\blockstates\pink_garnet_trapdoor.json
+0428cb4e7d6d9f6f4679e809b1c46a470a7e4ce6 assets\outlier-mod\blockstates\pink_garnet_stairs.json
 aea3ea0932bacc077e30c78da54dbda70b325475 assets\outlier-mod\blockstates\pink_garnet_ore.json
 51159dc9dfb27a6a8a78a0876e678636df7e3e69 assets\outlier-mod\blockstates\potted_petunia.json
 3f5194047247c40850ce71a685e4f831a0494d66 assets\outlier-mod\models\item\pink_garnet_leggings_quartz_trim.json
@@ -107,8 +108,8 @@ d13dbccbfddf66c1b1cdc1d8d1b1c29a844dc681 assets\outlier-mod\models\item\metal_de
 ad730ff028f28180172016e2bc44fc6e77316bf7 assets\outlier-mod\models\item\pink_garnet_chestplate_amethyst_trim.json
 efa8d466dd6ba5b5c061f0dcd7c35f888b9079e6 assets\outlier-mod\blockstates\pink_garnet_wall.json
 c60fa5691907ba04b0c455a4da4730d89944d4d9 assets\outlier-mod\models\item\pink_garnet_chestplate_iron_trim.json
-791a81a163573125938d02f340c4d18cdbefca76 assets\outlier-mod\models\item\nether_pink_garnet_ore.json
 36620b1ae91c20bd554e21bde9fdd855b3c46da7 assets\outlier-mod\models\item\pink_garnet_shovel.json
+791a81a163573125938d02f340c4d18cdbefca76 assets\outlier-mod\models\item\nether_pink_garnet_ore.json
 44dfb0769720cfa4b153f78e1736fb6312a83cf1 assets\outlier-mod\models\item\raw_pink_garnet_block.json
 0edbfd597a6b8b04aefa7740ddb6bae202cd0a41 assets\outlier-mod\models\block\pink_garnet_door_top_left.json
 08b1d96cd68428d88df1b07c617cf4e26c0eda3c assets\outlier-mod\models\item\pink_garnet_sword.json

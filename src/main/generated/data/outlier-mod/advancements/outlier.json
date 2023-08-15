@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "has_pink_garnet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "outlier-mod:pink_garnet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "outlier-mod:textures/block/pink_garnet_ore.png",
+    "description": {
+      "text": "Power in the Garnet!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "outlier-mod:pink_garnet"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Outlier Mod"
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_garnet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

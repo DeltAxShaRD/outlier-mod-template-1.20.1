@@ -1,0 +1,12 @@
+{
+  "type": "outlier-mod:gem_empowering",
+  "ingredients": [
+    {
+      "item": "outlier-mod:raw_pink_garnet"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "outlier-mod:pink_garnet"
+  }
+}

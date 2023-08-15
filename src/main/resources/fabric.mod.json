@@ -24,6 +24,9 @@
 		],
 		"client": [
 			"ariafey.outlier.OutlierModClient"
+		],
+		"rei_client": [
+			"ariafey.outlier.compat.OutlierModREIClientPlugin"
 		]
 	},
 	"mixins": [

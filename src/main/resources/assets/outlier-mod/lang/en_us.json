@@ -7,6 +7,7 @@
   "item.outlier-mod.peat_brick": "Peat Brick",
   "item.outlier-mod.data_tablet": "Data Tablet",
   "item.outlier-mod.cauliflower_seeds": "Cauliflower Seeds",
+  "item.outlier-mod.soap_water_bucket": "Soapy Water Bucket",
 
   "item.outlier-mod.bar_brawl_disc": "Bar Brawl Music Disc",
   "item.outlier-mod.bar_brawl_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
@@ -57,10 +58,21 @@
 
   "enchantment.outlier-mod.lightning_striker": "§dLightning Striker§r",
 
+  "entity.minecraft.villager.soundmaster": "SoundMaster",
+
+  "painting.outlier-mod.saw_them.title": "Saw Them",
+  "painting.outlier-mod.saw_them.author": "NanoAttack",
+  "painting.outlier-mod.shrimp.title": "Shrimp",
+  "painting.outlier-mod.shrimp.author": "NanoAttack",
+  "painting.outlier-mod.world.title": "World",
+  "painting.outlier-mod.world.author": "NanoAttack",
+
   "sounds.outlier-mod.metal_detector_found_ore": "Metal Detector Found An Ore",
-  "sounds.outlier-mod.pink_garnet_lamp_break": "Block Broken",
-  "sounds.outlier-mod.pink_garnet_lamp_step": "Footsteps",
-  "sounds.outlier-mod.pink_garnet_lamp_place": "Block Placed",
-  "sounds.outlier-mod.pink_garnet_lamp_hit": "Block Breaking",
-  "sounds.outlier-mod.pink_garnet_lamp_fall": "No one ever hears this sound :("
+
+  "effect.outlier-mod.slimey": "Slimey",
+
+  "item.minecraft.potion.effect.slimey_poiton": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_poiton": "Splash Slimey Potion",
+  "item.minecraft.lingering_potion.effect.slimey_poiton": "Lingering Slimey Potion",
+  "item.minecraft.tipped_arrow.effect.slimey_potion": "Slimey Tipped Arrow"
 }

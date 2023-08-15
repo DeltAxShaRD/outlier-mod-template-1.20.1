@@ -14,5 +14,9 @@ public class OutlierModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeGenerator::new);
+		pack.addProvider(ModPaintingVariantTagProvider::new);
+		pack.addProvider(ModAdvancementProvider::new);
+		pack.addProvider(ModPOITagProvider::new);
+		pack.addProvider(ModFluidTagProvider::new);
 	}
 }

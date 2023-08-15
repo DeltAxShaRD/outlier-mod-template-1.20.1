@@ -3,6 +3,7 @@ package ariafey.outlier.datagen;
 import ariafey.outlier.block.ModBlocks;
 import ariafey.outlier.block.custom.CauliflowerCropBlock;
 import ariafey.outlier.block.custom.PinkGarnetLampBlock;
+import ariafey.outlier.fluid.ModFluids;
 import ariafey.outlier.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -69,6 +70,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
+        itemModelGenerator.register(ModFluids.SOAP_WATER_BUCKET, Models.GENERATED);
         //itemModelGenerator.register(ModItems.DATA_TABLET, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BAR_BRAWL_DISC, Models.GENERATED);

@@ -1,11 +1,21 @@
 package ariafey.outlier;
 
 import ariafey.outlier.block.ModBlocks;
+import ariafey.outlier.block.entity.ModBlockEntities;
+import ariafey.outlier.effect.ModEffects;
 import ariafey.outlier.enchantment.ModEnchantments;
+import ariafey.outlier.fluid.ModFluids;
 import ariafey.outlier.item.ModItemGroup;
 import ariafey.outlier.item.ModItems;
+import ariafey.outlier.painting.ModPaintings;
+import ariafey.outlier.particle.ModParticles;
+import ariafey.outlier.potion.ModPotions;
+import ariafey.outlier.recipe.ModRecipes;
+import ariafey.outlier.screen.ModScreenHandlers;
 import ariafey.outlier.sound.ModSounds;
+import ariafey.outlier.util.ModLootTableModifiers;
 import ariafey.outlier.util.ModRegistries;
+import ariafey.outlier.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -24,6 +34,16 @@ public class OutlierMod implements ModInitializer {
 		ModRegistries.registerModStuffs();
 		ModEnchantments.registerModEnchantments();
 		ModSounds.registerSounds();
+		ModLootTableModifiers.modifyLootTables();
+		ModPaintings.registerPaintings();
+		ModEffects.registerEffects();
+		ModPotions.registerPotions();
+		ModParticles.registerParticles();
+		ModVillagers.registerVillagers();
+		ModFluids.registerFluids();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandler();
+		ModRecipes.registerRecipes();
 
 
 	}

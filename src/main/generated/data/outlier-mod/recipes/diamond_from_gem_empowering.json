@@ -1,0 +1,11 @@
+{
+  "type": "outlier-mod:gem_empowering",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "item": "minecraft:diamond"
+  }
+}

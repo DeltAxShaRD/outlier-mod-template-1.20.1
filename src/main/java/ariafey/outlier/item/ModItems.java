@@ -2,11 +2,7 @@ package ariafey.outlier.item;
 
 import ariafey.outlier.OutlierMod;
 import ariafey.outlier.block.ModBlocks;
-import ariafey.outlier.item.custom.DataTabletItem;
-import ariafey.outlier.item.custom.MetalDectectorItem;
-import ariafey.outlier.item.custom.ModArmorItem;
-import ariafey.outlier.item.custom.ModPoisonSwordItem;
-import ariafey.outlier.item.custom.PaxelItem;
+import ariafey.outlier.item.custom.*;
 import ariafey.outlier.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -72,7 +68,8 @@ public class ModItems {
     public static final Item BAR_BRAWL_DISC = registerItem("bar_brawl_disc",
             new MusicDiscItem(9, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
 
-
+    public static final Item NETHERITE_SPEAR = registerItem("netherite_spear",
+            new TridentItem(new FabricItemSettings().fireproof()));
 
 
 

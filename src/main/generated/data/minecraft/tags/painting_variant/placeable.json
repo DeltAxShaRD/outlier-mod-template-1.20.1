@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "outlier-mod:saw_them",
+      "required": false
+    },
+    {
+      "id": "outlier-mod:shrimp",
+      "required": false
+    },
+    {
+      "id": "outlier-mod:world",
+      "required": false
+    }
+  ]
+}

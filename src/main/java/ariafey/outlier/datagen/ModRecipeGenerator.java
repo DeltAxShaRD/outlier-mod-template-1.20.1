@@ -1,11 +1,13 @@
 package ariafey.outlier.datagen;
 
 import ariafey.outlier.block.ModBlocks;
+import ariafey.outlier.datagen.recipe.GemEmpoweringRecipeBuilder;
 import ariafey.outlier.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -40,6 +42,20 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModItems.RAW_PINK_GARNET, ModBlocks.PINK_GARNET_ORE, ModBlocks.DEEPSLATE_PINK_GARNET_ORE,
                 ModBlocks.NETHER_PINK_GARNET_ORE, ModBlocks.END_STONE_PINK_GARNET_ORE), RecipeCategory.MISC, ModItems.PINK_GARNET,
                 0.35f,125, "pink_garnet");
+        //Custom Mod Stuff, Gem Empowering.
+        //Pink Garnet
+        new GemEmpoweringRecipeBuilder(ModItems.RAW_PINK_GARNET, ModItems.PINK_GARNET, 3)
+                .criterion(hasItem(ModItems.RAW_PINK_GARNET), conditionsFromItem(ModItems.RAW_PINK_GARNET))
+                .offerTo(exporter);
+        //End Rod
+        new GemEmpoweringRecipeBuilder(Items.STICK, Items.END_ROD, 1)
+                .criterion(hasItem(Items.END_ROD), conditionsFromItem(Items.END_ROD))
+                .offerTo(exporter);
+        //Diamond
+        new GemEmpoweringRecipeBuilder(Items.COAL, Items.DIAMOND, 1)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .offerTo(exporter);
+
     }
 }
 

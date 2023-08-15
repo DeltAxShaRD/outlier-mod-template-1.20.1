@@ -2,6 +2,7 @@ package ariafey.outlier.item;
 
 import ariafey.outlier.OutlierMod;
 import ariafey.outlier.block.ModBlocks;
+import ariafey.outlier.fluid.ModFluids;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -21,6 +22,7 @@ public class ModItemGroup {
                         entries.add(ModItems.DATA_TABLET);
                         entries.add(ModItems.PEAT_BRICK);
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
+                        entries.add(ModFluids.SOAP_WATER_BUCKET);
                         //music discs
                         entries.add(ModItems.BAR_BRAWL_DISC);
                         //tools
